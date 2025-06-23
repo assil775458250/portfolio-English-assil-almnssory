@@ -23,16 +23,21 @@ html
 {
     font-size: 62.5%;
     overflow-x: hidden;
+    width: 100%;
 }
 body
 {
     background: var(--bg_color);
     color: var(--text_color);
+    width: 100%;
+   
 }
 section
 {
     min-height: 100vh;
     padding: 10rem 9% ;
+    width: 100%;
+ 
 }
 span
 {
@@ -152,6 +157,8 @@ transition: .5s ease;
 .services
 {
     background-color: var(--second_bg_color);
+    width: 100%;
+    
 }
 .services h2
 {
@@ -445,7 +452,48 @@ form .btn
 {
    transform: translateY(0%); 
 }
+.home
+{
+    flex-direction: column;
 
+}
+.home-img img
+{
+width: 70vh;
+}
 
+section
+{
+    width: 200%;
+    
+}
+.services
+{
+    width: 200%;
+}
+   footer
+    {
+        display: flex;
+       width: 200%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 100px;
+       
+    }
+    
    
  }
+
+  @media (max-width:480px)
+  {
+    .home-img img
+{
+width: 45vh;
+}
+  }
+
+
+
+
