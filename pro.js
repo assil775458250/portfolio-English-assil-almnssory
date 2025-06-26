@@ -73,7 +73,7 @@ ScrollReveal(
 );
 
 ScrollReveal().reveal('.home-content, .heading',{origin:'top'});
-ScrollReveal().reveal('.home-img, .services-container, .portfolio-container,.contact form',{origin:'bottom'});
+ScrollReveal().reveal('.home-img, .services-container, .portfolio-container',{origin:'bottom'});
 ScrollReveal().reveal('.home-content h1',{origin:'left'});
 ScrollReveal().reveal('.home-content p',{origin:'right'});
 
